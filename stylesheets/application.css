@@ -23,7 +23,8 @@ body {
     
 }
 header{
-    overflow: auto;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling:touch;
 }
 .app-list{
     direction: rtl;
