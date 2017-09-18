@@ -1,6 +1,8 @@
-var random_number,element;
+var random_number,element,html_element;
 random_number=Math.floor(Math.random()*6+1);
 element=document.getElementsByTagName("body")[0];
+html_element=document.getElementsByTagName("html")[0];
+html_element.style.background="url(images/background/"+random_number.toString()+".jpg)";
 element.style.background="url(images/background/"+random_number.toString()+".jpg)";
 element.style.backgroundSize="cover";
 element.style.width="100%";
