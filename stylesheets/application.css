@@ -12,6 +12,27 @@ html {
     margin: 0;
 }
 
+#login-footer p{
+    vertical-align: center;
+    margin:auto;
+    font-family: "yekan";
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+#login-footer{
+    color: white;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    background-color: #3197c4;
+    position:absolute;
+    font-size: 17px;
+    margin-top: 100px;
+    height: auto;
+    opacity: 0.9;
+}
+
 body {
   margin: 0;
   height: 100%;
@@ -21,6 +42,11 @@ body {
   background-attachment:fixed;
   overflow: hidden;
     
+}
+.copyright{
+    bottom: 0;
+    padding: 0px;
+    margin: 0px;
 }
 header{
     overflow-y: auto;
