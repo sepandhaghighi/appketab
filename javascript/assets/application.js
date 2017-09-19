@@ -8,13 +8,6 @@ element.style.height="100%";
 element.style.margin="0";
 element.style.backgroundAttachment="fixed";
 
-function resizeBackground() {
-    $("body").height($(window).height());
-}
-
-$(window).resize(resizeBackground);
-resizeBackground();
-
 
 $(function() {
 
