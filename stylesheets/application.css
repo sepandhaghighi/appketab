@@ -19,7 +19,11 @@ body {
   background: #2e2f41 url(../images/background/5.jpg) 0 0 no-repeat;
   background-size: cover;
   background-attachment:fixed;
+  overflow: hidden;
     
+}
+header{
+    overflow-y: auto;
 }
 .app-list{
     direction: rtl;
