@@ -9,7 +9,7 @@ element.style.backgroundAttachment="fixed";
 element.style.overflow="hidden";
 
 function resizeBackground() {
-    $("body").height($(window).height());
+    $("body").height($(window).height()+ 60);
 }
 
 $(window).resize(resizeBackground);
