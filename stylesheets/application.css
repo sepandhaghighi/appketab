@@ -20,7 +20,7 @@ body {
   background-size: cover;
   background-attachment:fixed;
   overflow: hidden;
-   -webkit-overflow-scrolling:touch;
+  -webkit-overflow-scrolling:touch;
     
 }
 header{
