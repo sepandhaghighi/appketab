@@ -6,7 +6,6 @@ element.style.backgroundSize="cover";
 element.style.width="100%";
 element.style.height="100%";
 element.style.backgroundAttachment="fixed";
-element.style.overflow="auto";
 
 function resizeBackground() {
     $("body").height($(window).height());
