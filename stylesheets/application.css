@@ -3732,6 +3732,7 @@ tbody.collapse.in {
   margin-right: auto;
   width: 320px;
   height: auto;
+  margin-bottom: 60px;
 }
 @media screen and (max-width: 800px) {
   .jumbotron .img-iPhone {
