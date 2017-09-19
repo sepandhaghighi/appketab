@@ -10,6 +10,14 @@ element.style.backgroundAttachment="fixed";
 element.style.backgroundRepeat="no-repeat";
 
 
+function resizeBackground() {
+    $("body").height($(window).height());
+}
+
+$(window).resize(resizeBackground);
+resizeBackground();
+
+
 $(function() {
 
   /*-----------------------------------------------------------------------------------*/
