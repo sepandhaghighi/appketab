@@ -3708,6 +3708,9 @@ tbody.collapse.in {
 .jumbotron .h1 {
   color: white;
 }
+.jumbotron h2{
+    color: white;
+}
 .jumbotron p {
   margin-bottom: 15px;
   font-size: 20px;
