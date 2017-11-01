@@ -3,6 +3,11 @@
   font-family: 'yekan';
   src: url("../fonts/Yekan.otf");
 }
+
+.img-iPhone{
+    position: absolute;
+    left: 18%;
+}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -11,7 +16,6 @@ html {
     height: 100%;
     margin: 0;
 }
-
 #login-footer p{
     vertical-align: center;
     margin:auto;
@@ -3766,23 +3770,42 @@ tbody.collapse.in {
   width: 320px;
   height: auto;
   margin-bottom: 60px;
+    
+}
+.jumbotron .gif-preview{
+    width: 280px;
+    margin-left: 21px;
+    margin-top: 60px;
 }
 @media screen and (max-width: 800px) {
   .jumbotron .img-iPhone {
     margin-top: 50px;
   }
+    .jumbotron .gif-preview{
+    margin-top: 110px;
+}
 }
 @media screen and (max-width: 480px) {
   .jumbotron .img-iPhone {
     width: 250px;
     height: auto;
   }
+    .jumbotron .gif-preview{
+    width: 216px;
+    margin-left: 17px;
+    margin-top: 102px;
+}
 }
 @media screen and (max-width: 320px) {
   .jumbotron .img-iPhone {
     width: 220px;
     height: auto;
   }
+    .jumbotron .gif-preview{
+    width: 190px;
+    margin-left: 15px;
+    margin-top: 94px;
+}
 }
 .jumbotron .btn-app-store {
   margin-top: 40px;
