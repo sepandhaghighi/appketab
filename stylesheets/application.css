@@ -3770,11 +3770,12 @@ tbody.collapse.in {
   width: 320px;
   height: auto;
   margin-bottom: 60px;
+  left: 50%;
+ transform: translateX(-50%);
     
 }
 .jumbotron .gif-preview{
     width: 280px;
-    margin-left: 21px;
     margin-top: 60px;
 }
 @media screen and (max-width: 800px) {
@@ -3792,7 +3793,6 @@ tbody.collapse.in {
   }
     .jumbotron .gif-preview{
     width: 216px;
-    margin-left: 17px;
     margin-top: 102px;
 }
 }
@@ -3803,7 +3803,6 @@ tbody.collapse.in {
   }
     .jumbotron .gif-preview{
     width: 190px;
-    margin-left: 15px;
     margin-top: 94px;
 }
 }
