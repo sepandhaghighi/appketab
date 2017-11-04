@@ -1,5 +1,5 @@
 var random_number,element;
-random_number=Math.floor(Math.random()*6+1);
+random_number=Math.floor(Math.random()*5+1);
 element=document.getElementsByTagName("body")[0];
 element.style.background="url(images/background/"+random_number.toString()+".jpg)";
 element.style.backgroundSize="cover";
