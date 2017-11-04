@@ -65,6 +65,31 @@ header{
     text-align: right;
       margin: 0.67em 0;
 }
+.email{
+    margin-left: 15px;
+    position: absolute;
+    bottom:45px;
+}
+.email a{
+    color: white;
+    display: block;
+    margin-top: 8px;
+    
+}
+
+
+.email a:hover{
+    opacity: 0.4;
+    color: white;
+}
+
+.email a:visited{
+    color: white;
+}
+
+.email a:after{
+    color: white;
+}
 h1{
     font-family: "yekan";
 }
