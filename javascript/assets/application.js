@@ -45,3 +45,4 @@ $(function() {
   $('.tooltip-side-nav').tooltip();
   
 });
+
