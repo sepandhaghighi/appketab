@@ -46,3 +46,20 @@ $(function() {
   
 });
 
+$.fn.scrollEnd = function(callback, timeout) {          
+  $(this).scroll(function(){
+    var $this = $(this);
+    if ($this.data('scrollTimeout')) {
+      clearTimeout($this.data('scrollTimeout'));
+    }
+    $this.data('scrollTimeout', setTimeout(callback,timeout));
+  });
+};
+
+$("header").scroll(function(){
+    $("#email")[0].style.opacity=0.2;
+});
+$("header").scrollEnd(function(){
+    $("#email")[0].style.opacity=1;
+}, 500);
+
