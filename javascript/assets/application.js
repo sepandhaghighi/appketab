@@ -58,8 +58,10 @@ $.fn.scrollEnd = function(callback, timeout) {
 
 $("header").scroll(function(){
     $("#email")[0].style.opacity=0.2;
+     $("#login-footer")[0].style.opacity=0.2;
 });
 $("header").scrollEnd(function(){
     $("#email")[0].style.opacity=1;
-}, 500);
+    $("#login-footer")[0].style.opacity=0.9;
+}, 370);
 
