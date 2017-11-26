@@ -3832,8 +3832,8 @@ tbody.collapse.in {
 }
 }
 .jumbotron .btn-app-store {
-  margin-top: 40px;
-    display: inline-block;
+  margin-top: 10px;
+    display:inline-block;
 }
 .jumbotron .btn-app-store .btn.btn-lg, .jumbotron .btn-app-store .btn-group-lg > .btn {
   padding: 0;
