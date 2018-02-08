@@ -4,6 +4,11 @@
   src: url("../fonts/Yekan.otf");
 }
 
+
+.note{
+    color:yellow;
+}
+
 .img-iPhone{
     position: absolute;
     left: 18%;
