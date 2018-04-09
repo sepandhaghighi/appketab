@@ -1478,6 +1478,7 @@ p {
   line-height: 1.4;
 }
 @media (min-width: 768px) {
+
   .lead {
     font-size: 19.5px;
   }
@@ -1812,6 +1813,7 @@ pre code {
   clear: both;
 }
 @media (min-width: 768px) {
+
   .container {
     width: 750px;
   }
@@ -3819,6 +3821,7 @@ tbody.collapse.in {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 320px) {
+    
   .jumbotron h1,
   .jumbotron .h1 {
     font-size: 34px;
@@ -4099,6 +4102,18 @@ tbody.collapse.in {
 }
 
 @media (max-width: 767px) {
+    .email{
+    margin:auto;
+    position:fixed;
+    top: 0px;
+    margin-left:8px;
+}
+    .email a{
+    color: white;
+    display: inline-block;
+    margin-right: 8px;
+    
+}
   .visible-xs {
     display: block !important;
   }
