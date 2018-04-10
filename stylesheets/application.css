@@ -4122,15 +4122,17 @@ tbody.collapse.in {
         .email{
     position:fixed;
     top: 0px;
+    right: 0px;
     margin-left:8px;
     display: block;
 }
     .email a{
     color: white;
-    position: relative;
+    display: block;
     margin-right: 8px;
     
 }
+    
 }
 @media (max-width: 767px) {
   .visible-xs-block {
