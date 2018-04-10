@@ -4102,18 +4102,7 @@ tbody.collapse.in {
 }
 
 @media (max-width: 767px) {
-    .email{
-    margin:auto;
-    position:fixed;
-    top: 0px;
-    margin-left:8px;
-}
-    .email a{
-    color: white;
-    display: inline-block;
-    margin-right: 8px;
-    
-}
+
   .visible-xs {
     display: block !important;
   }
@@ -4130,6 +4119,18 @@ tbody.collapse.in {
   td.visible-xs {
     display: table-cell !important;
   }
+        .email{
+    position:fixed;
+    top: 0px;
+    margin-left:8px;
+    display: block;
+}
+    .email a{
+    color: white;
+    position: relative;
+    margin-right: 8px;
+    
+}
 }
 @media (max-width: 767px) {
   .visible-xs-block {
