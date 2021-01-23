@@ -91,6 +91,7 @@ body {
   margin: 0;
   height: 100%;
   width: 100%;
+  position: fixed;
   background: #2e2f41 url(../images/background/5.jpg) 0 0 no-repeat;
   background-size: cover;
   background-attachment:fixed;
