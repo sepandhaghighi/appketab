@@ -65,7 +65,6 @@ html {
     height: 100%;
     height: 100%;
     margin: 0;
-  overflow-y: hidden;
 }
 #login-footer p{
     vertical-align: center;
@@ -3851,6 +3850,7 @@ tbody.collapse.in {
   width: 320px;
   height: auto;
   margin-bottom: 60px;
+  padding-bottom: 60px;
   left: 50%;
  transform: translateX(-50%);
     
