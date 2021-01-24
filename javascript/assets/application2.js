@@ -1,7 +1,8 @@
 
-
-var clientHeight = $( window ).height();
-$('body').css('height', clientHeight);
+//$('body').scroll(function(){
+//var clientHeight = $( window ).height();
+//$('body').css('height', clientHeight);
+//});
 
 //function resizeBackground() {
 //    $("body").height($(window).height());
