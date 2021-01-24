@@ -4,12 +4,12 @@
 //$('body').css('height', clientHeight);
 //});
 
-//function resizeBackground() {
-//    $("body").height($(window).height());
-//}
+function resizeBackground() {
+    $("body").height($(window).height());
+}
 
-//$(window).resize(resizeBackground);
-//resizeBackground();
+$(window).resize(resizeBackground);
+resizeBackground();
 
 
 $(function() {
